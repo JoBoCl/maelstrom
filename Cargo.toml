@@ -17,3 +17,5 @@ maelstrom-node="*"
 
 [[bin]]
 name = "echo"
+[[bin]]
+name = "unique_ids"
