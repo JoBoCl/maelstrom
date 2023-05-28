@@ -1,11 +1,8 @@
-#![feature(async_closure)]
 use async_trait::async_trait;
 use maelstrom::kv::{lin_kv, Storage, KV};
 use maelstrom::protocol::Message;
 use maelstrom::{done, Node, Result, Runtime};
 use serde_json::json;
-
-use std::borrow::BorrowMut;
 use std::sync::{Arc, Mutex};
 use tokio_context::context::Context;
 
