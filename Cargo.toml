@@ -20,4 +20,6 @@ name = "echo"
 [[bin]]
 name = "unique_ids"
 [[bin]]
+name = "unique_ids_local"
+[[bin]]
 name = "broadcast"
