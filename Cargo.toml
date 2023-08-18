@@ -14,6 +14,8 @@ serde_json = "*"
 tokio = { version = "*", features = ["full"] }
 tokio-context = "*"
 maelstrom-node="*"
+color-eyre = "*"
+async-recursion = "1.0.4"
 
 [[bin]]
 name = "echo"
